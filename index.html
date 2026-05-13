@@ -17,7 +17,7 @@
   <link rel="icon" type="image/png" href="./JUMPBLOX.png">
   <link rel="apple-touch-icon" href="./JUMPBLOX.png">
 
-  <!-- Theme Color -->
+  <!-- Theme -->
   <meta name="theme-color" content="#4f46e5">
 </head>
 
@@ -27,6 +27,15 @@
 
   <!-- Game Script -->
   <script src="script.js"></script>
+
+  <!-- Service Worker -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js")
+        .then(() => console.log("Service Worker Registered"))
+        .catch(error => console.log("Service Worker Error:", error));
+    }
+  </script>
 
 </body>
 
