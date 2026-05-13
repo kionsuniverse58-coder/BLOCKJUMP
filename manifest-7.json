@@ -1,0 +1,22 @@
+{
+  "name": "BlockJump",
+  "short_name": "BlockJump",
+  "description": "An addictive block jumping arcade game",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
+  "lang": "en",
+  "categories": ["games"],
+
+  "icons": [
+    {
+      "src": "JUMPBLOX.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
